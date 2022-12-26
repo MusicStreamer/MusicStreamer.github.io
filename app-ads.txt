@@ -1,5 +1,6 @@
 google.com, pub-7241611089573016, DIRECT, f08c47fec0942fa0
 facebook.com, 1186942028595166, DIRECT, c3e20eee3f780d68
+applovin.com, 7085b5d0612ab0f3c7510c1922881f1e, DIRECT
 #Updated 20th December, 2022
 #Appodeal
 appodeal.com, 212407, DIRECT
