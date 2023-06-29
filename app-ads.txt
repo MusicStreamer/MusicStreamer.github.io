@@ -1,4 +1,8 @@
 #Updated 08.5.2023
+
+#AdMob
+#Copy YOUR_ADMOB_APP_ID entry from your Admob dashboard
+google.com, pub-5595418245711559, DIRECT, f08c47fec0942fa0
 #Appodeal
 appodeal.com, 212407, DIRECT
 #BidMachine
