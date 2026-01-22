@@ -1,8 +1,7 @@
 #Updated 3rd November 2023
-
+google.com, pub-6166309511001810, DIRECT, f08c47fec0942fa0
 appodeal.com, 212407, DIRECT
 bidmachine.io, 212407, DIRECT
-google.com, pub-6166309511001810, DIRECT, f08c47fec0942fa0
 facebook.com, 1186942028595166, RESELLER, c3e20eee3f780d68
 applovin.com, 7085b5d0612ab0f3c7510c1922881f1e, DIRECT
 
@@ -902,4 +901,5 @@ yeahmobi.com,5135082,RESELLER
 yeahmobi.com,5135195,RESELLER
 yeahmobi.com,5135347,RESELLER
 yieldlab.net,2172218,RESELLER
+
 
