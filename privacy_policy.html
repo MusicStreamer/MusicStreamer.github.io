@@ -1,125 +1,258 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-      <meta charset='utf-8'>
-      <meta name='viewport' content='width=device-width'>
-      <title>Privacy Policy - Music ▸ Player</title>
-      <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } </style>
-    </head>
-    <body>
-    <H1>Privacy Policy</H1>
-        <br><br>
-    
-        <p>Effective date: 2021-09-16</p>
-        <br>
-        <p>
-                  Satish Maleku built the Music ▸ Player as
-                  an Ad supported App. This SERVICE is provided by
-                  Satish Maleku at no cost and is intended for use as
-                  is.
-                </p> <p>
-                  This page is used to inform visitors regarding my
-                  policies with the collection, use, and disclosure of personal
-                  information if anyone decided to use my service.
-                </p> <p>
-                  If you choose to use my service, then you agree to
-                  the collection and use of information in relation to this
-                  policy. The personal information that I collect is
-                  used for providing and improving the service. I will not use or share your information with
-                  anyone except as described in this privacy policy.
-                </p> 
-                <p><H2>Information Collection and Use</H2></p> 
-                <p><H3>Information that we collect</H3></p> 
-                <p>
-                  When you use the App, some information about your device and your user behaviour may be processed automatically. 
-                  This information is generally non-personal, and we may access it only in aggregated form.
-                  <br><br>We process this information on the ground of our legitimate interest in improving our App and giving our users the best experience. 
-                  Otherwise, we may not be able to provide you with all the requested services and features of the App. The information that
-                  I request will be retained on your device and is not collected by me in any way. 
-                  <br><br>We do not control, supervise or respond for how the third parties providing your information process your personal data, 
-                  and any information request regarding the disclosure of your personal information to us should be directed to such third parties. 
-                <br><br>When you use a mobile device (a tablet or a phone) to access our App, we may access or monitor one or more “device identifiers”. 
-                Device identifiers are small data files or similar data structures stored on or associated with your mobile device, 
-                which uniquely identify your mobile device. 
-                Device identifier provides reports or personalized content and ads. 
-                </p> <div>
-                    <p>
-                    Link to the privacy policy of third-party service providers used
-                    by the App.
-                  </p> <ul><!----><li><a href="https://www.applovin.com/privacy/" target="_blank" rel="noopener noreferrer">AppLovin</a></li><!----><li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy Policy for Music Player, including advertising, purchases, iCloud sync, analytics, and user controls.">
+    <meta name="color-scheme" content="light dark">
+    <title>Privacy Policy - Music Player</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --background: #ffffff;
+            --surface: #f5f5f7;
+            --text: #1d1d1f;
+            --secondary: #5f6368;
+            --border: #d9d9de;
+            --accent: #c91645;
+            --link: #0066cc;
+        }
 
-                <p><H3>How your information is used</H3></p>
- <p>we use your information for the following purposes only:
-                </p>
-<ul> <li>To make our service available. We use information that you submit and information that is processed automatically to provide you with all requested services.</li> <li>To improve, test and monitor the effectiveness of our App. We use information that is processed automatically to better understand user behavior and trends, detect potential outages and technical issues, to operate, protect, improve, and optimize our App.</li><li>To provide you with interest-based (behavioral) advertising or other targeted content. We may use information information that is processed automatically for marketing purposes (to show ads that may be of interest to you based on your preferences). We provide personalized content and information to you, which can include online ads or other forms of marketing.</li> <li>To assist us in analyzing how our service is used.</li></ul>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #111113;
+                --surface: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #b0b0b5;
+                --border: #39393d;
+                --accent: #ff527d;
+                --link: #64a8ff;
+            }
+        }
 
-                <p><H3>Sharing of your information</H3></p>
-<p>We will not rent or sell your personal data to third parties, but we may share your information from tools like cookies, log files, and device identifiers and location data, with third-party organizations that provide automatic data processing technologies for the App. We do not control or influence these third parties’ tracking technologies or how they may be used.We may also share certain information such as cookie data with third-party advertising partners. This information allows third-party ad networks, inter alia, to deliver targeted advertisements that they believe will be of most interest to you.<br>
-We may use one or more of the following third-party advertising services and analytics tools:
+        * { box-sizing: border-box; }
 
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.62;
+        }
 
+        main {
+            width: min(100% - 32px, 860px);
+            margin: 0 auto;
+            padding: 48px 0 72px;
+        }
 
- </p>
+        h1, h2, h3 { line-height: 1.2; }
+        h1 { margin: 0 0 8px; font-size: clamp(2rem, 7vw, 3rem); }
+        h2 { margin: 42px 0 14px; font-size: 1.45rem; }
+        h3 { margin: 26px 0 8px; font-size: 1.08rem; }
+        p, ul { margin: 0 0 16px; }
+        ul { padding-left: 24px; }
+        li + li { margin-top: 8px; }
 
+        a { color: var(--link); text-underline-offset: 2px; }
+        a:hover { text-decoration-thickness: 2px; }
 
+        .eyebrow {
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
 
-<p><H2>Log Data</H2></p> <p>
-                    Log file information is automatically reported each time you make a request to access the App. 
-                    It can also be provided when the App is installed on your device. 
-                    When you use the App, analytics tools automatically record certain log file information, 
-                    including time and date when you start and stop using the App, and how you interact with the App. 
-        
-                  <br><br>Whenever you use my service, in case of crash or errors in the App,
-                  I collect data and information (through third-party
-                  products) on your phone called Log Data. This log data may
-                  include information such as your device internet protocol
-                  (“IP”) address, device name, operating system version, the
-                  configuration of the App when utilizing my service,
-                  the time and date of your use of the service, and other
-                  statistics.
-        
-                </p> <p><H2>Cookies</H2></p> <p>
-                  A cookie is a text file containing small amounts of information which is downloaded to your device when you access the App.
-                  The text file is then sent back to our server each time you use the App and is
-                  stored on your device's internal memory.<br><br>
-                  When you use the App, we may use cookies and similar technologies like pixels, web beacons, 
-                  scripts to collect information about how you use our App and provide features to you. 
-                    
-                 This enables us to operate the App more effectively. For example, we will know how many users access a specific areas or features within our App and which links or ads they clicked on. 
-                We use this aggregated information to understand and optimize how our App is used, improve our marketing efforts, and provide content and features that are of interest to you. We may ask advertisers or other partners to serve ads or services to the App, which may use cookies or similar technologies. 
-        
-                </p> <p>
-                  This service does not use these “cookies” explicitly. However,
-                  the App may use third-party code and libraries that use
-                  “cookies” to collect information and improve their services.
-                  
-                
-                </p> <p><H2>Links to Other Sites</H2></p> <p>
-                  This service may contain links to other sites. If you click on
-                  a third-party link, you will be directed to that site. Note
-                  that these external sites are not operated by me.
-                  Therefore, i advise you to review the
-                  privacy policy of these websites. I have
-                  no control over and assume no responsibility for the content,
-                  privacy policies, or practices of any third-party sites or
-                  services.
-                </p> <p><H2>Children’s Privacy</H2></p> <div><p>
-                    These services do not address anyone under the age of 13.
-                    I do not knowingly collect personally
-                    identifiable information from children under 13 years of age. In the case
-                    I discover that a child under 13 has provided
-                    me with personal information, I immediately
-                    delete this from our servers. If you are a parent or guardian
-                    and you are aware that your child has provided us with
-                    personal information, please contact me so that
-                    I will be able to do the necessary actions.
-                  </p></div> <!----> <p><H2>Changes to this Privacy Policy</H2></p> <p>
-                  This Privacy policy will be regularly updated.
+        .updated { color: var(--secondary); }
 
-Whenever we change this Privacy policy, we will post those changes to this Privacy policy and other places that we consider appropriate. Additional forms of notice of modifications or updates as appropriate under the circumstances may be provided to you.
-                </p>  <p><H2>Contact Us</H2></p> <p>
-                  If you have any questions or suggestions about my
-                  privacy policy, do not hesitate to contact me at <strong>jukeboxmusicstreamer@gmail.com<strong>.
-    </body>
-    </html>
-      
+        .summary {
+            margin: 28px 0 36px;
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            background: var(--surface);
+        }
+
+        .summary p:last-child { margin-bottom: 0; }
+
+        .table-wrap {
+            margin: 18px 0 24px;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 640px;
+        }
+
+        th, td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th { background: var(--surface); }
+        tr:last-child td { border-bottom: 0; }
+
+        .contact {
+            margin-top: 42px;
+            padding: 22px;
+            border-radius: 16px;
+            background: var(--surface);
+        }
+
+        .contact h2 { margin-top: 0; }
+        .contact p:last-child { margin-bottom: 0; }
+
+        @media (max-width: 560px) {
+            main { padding-top: 32px; }
+            .summary, .contact { padding: 18px; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="eyebrow">Music Player</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated"><strong>Effective date:</strong> July 18, 2026</p>
+
+    <div class="summary">
+        <p><strong>The short version:</strong> Music Player stores your library and preferences primarily on your device. If you purchase iCloud Sync, selected library information is also stored in your private iCloud database. The App uses third-party services to provide music search and playback, advertising, analytics, diagnostics, remote configuration, and purchases.</p>
+        <p>This policy explains what information is handled, why it is used, when it is shared, and the choices available to you.</p>
+    </div>
+
+    <h2>1. Who We Are and What This Policy Covers</h2>
+    <p>Music Player (the “App”) is operated by Satish Maleku (“we,” “us,” or “our”). This policy applies to the App, its related support communications, and this privacy-policy webpage.</p>
+    <p>The App does not require you to provide a name, email address, or traditional user account to listen to music. Some providers may nevertheless process device, network, usage, purchase, or diagnostic information as described below.</p>
+
+    <h2>2. Information Handled by the App</h2>
+    <div class="table-wrap" role="region" aria-label="Information handled by Music Player" tabindex="0">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Category</th>
+                    <th scope="col">Examples</th>
+                    <th scope="col">How it is used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Library and app data</td>
+                    <td>Favorites, playlist names and contents, recently played tracks, recent searches, playback settings, preferred region, appearance choices, and feature-entitlement flags.</td>
+                    <td>To provide your library, personalize the App on your device, remember settings, and restore unlocked features.</td>
+                </tr>
+                <tr>
+                    <td>Search and media requests</td>
+                    <td>Search terms, autocomplete text, video and playlist identifiers, track titles, artist names, thumbnail requests, and playback requests.</td>
+                    <td>To return search suggestions and results, display media information, and stream the content you select.</td>
+                </tr>
+                <tr>
+                    <td>Device, network, and advertising data</td>
+                    <td>IP address, approximate location inferred from IP, device and operating-system information, app version, advertising identifier when authorized, consent status, ad impressions, clicks, and interactions.</td>
+                    <td>To deliver, limit, personalize where permitted, measure, secure, and troubleshoot advertising.</td>
+                </tr>
+                <tr>
+                    <td>Usage and diagnostics</td>
+                    <td>App interactions, installation identifiers, anonymous Firebase identifier, session information, crash reports, performance information, and technical logs.</td>
+                    <td>To operate the App, retrieve its catalog and configuration, understand feature performance, prevent abuse, and diagnose crashes or errors.</td>
+                </tr>
+                <tr>
+                    <td>Purchase information</td>
+                    <td>Product identifier, displayed localized price, purchase or restoration result, transaction state, and unlocked entitlement.</td>
+                    <td>To show available products, complete or restore purchases, unlock features, and measure purchase-screen activity.</td>
+                </tr>
+                <tr>
+                    <td>Support communications</td>
+                    <td>Your email address and message if you contact us, plus app version, device model, and iOS version included in the App’s feedback template.</td>
+                    <td>To respond to support, privacy, and troubleshooting requests.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>Information stored locally</h3>
+    <p>Your playlists, favorites, recently played history, recent searches, preferences, and local entitlement flags are stored on your device using the App’s local database and system preferences. We do not routinely receive the contents of this local storage.</p>
+
+    <h3>Optional iCloud Sync and backup files</h3>
+    <p>If you purchase and use iCloud Sync, the App stores a library snapshot in your private Apple CloudKit database. The snapshot can contain track identifiers, titles, artists, favorite dates, playlist names, playlist track identifiers, creation and modification dates, and records needed to synchronize deletions. It does <strong>not</strong> contain actual audio files or playable stream URLs.</p>
+    <p>Private CloudKit data belongs to the signed-in iCloud user, counts against that user’s iCloud storage, and is private by default. Apple processes this information under its own terms and privacy policy. If you manually export a backup file, you control where that copy is saved or shared.</p>
+
+    <h3>In-app purchases</h3>
+    <p>The App offers non-consumable purchases for ad-free listening, iCloud Sync, or a bundle of those features. Purchases and restorations are processed by Apple through the App Store. Apple handles your Apple Account and payment credentials. We do not receive or store your payment-card number, bank details, or billing address.</p>
+    <p>The App receives product and transaction status from Apple and stores local flags showing which features are unlocked. Firebase Analytics may receive events indicating that a purchase screen was viewed, a product identifier and displayed price, or that a purchase or restoration succeeded. Purchase terms are governed by the <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Apple Standard End User License Agreement</a> and applicable App Store terms.</p>
+
+    <h2>3. Advertising and Your Choices</h2>
+    <p>The free version of the App uses AppLovin MAX and may use Meta Audience Network to show advertisements. These providers may process device and app information, IP-derived approximate location, advertising identifiers, consent signals, and ad interactions. Depending on your region and choices, ads may be personalized or non-personalized.</p>
+    <ul>
+        <li>Where required, the App requests advertising consent using Google’s User Messaging Platform.</li>
+        <li>On supported versions of iOS, the App requests permission through Apple’s App Tracking Transparency framework before accessing data used to track activity across other companies’ apps and websites.</li>
+        <li>You can change tracking permission in <strong>Settings &gt; Privacy &amp; Security &gt; Tracking</strong> on your device.</li>
+        <li>You may contact us to ask about withdrawing advertising consent or available provider-specific choices.</li>
+        <li>Purchasing Ad-Free disables the App’s ad placements, but does not erase information already retained by an advertising provider under its policy.</li>
+    </ul>
+    <p>We do not sell your personal information for money. Advertising providers may process or share information for targeted advertising where allowed by law and by your consent or device settings.</p>
+
+    <h2>4. Firebase, Google, and YouTube</h2>
+    <p>The App uses Firebase services, including anonymous authentication, Firestore, Analytics, Crashlytics, and Messaging. These services may process an anonymous account or installation identifier, IP address, device and app information, usage events, crash diagnostics, and notification tokens. Firestore provides charts, releases, artist data, playlists, and remote configuration used by the App.</p>
+    <p>Search terms, autocomplete text, video or playlist identifiers, and playback requests are sent to Google and YouTube services when you use the relevant features. Google may process this information together with network and device information under its own policy, including when you use Google services without signing in.</p>
+
+    <h2>5. Why We Use Information</h2>
+    <p>We and our providers use information only as reasonably necessary to:</p>
+    <ul>
+        <li>Provide search, playback, playlists, favorites, purchases, restoration, iCloud Sync, and other requested features.</li>
+        <li>Remember your settings and maintain the App’s functionality across launches.</li>
+        <li>Serve and measure advertising and respect applicable consent choices.</li>
+        <li>Maintain security, prevent fraud or abuse, diagnose errors, and improve reliability.</li>
+        <li>Understand aggregate feature performance and purchase-screen effectiveness.</li>
+        <li>Respond to support or privacy requests and comply with legal obligations.</li>
+    </ul>
+
+    <h2>6. When Information Is Shared</h2>
+    <p>Information is shared with service providers only as needed for the functions described in this policy. Those providers process information under their own privacy policies and applicable contractual terms. We use providers whose terms require protections intended to be consistent with this policy and applicable law.</p>
+    <ul>
+        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple</a> — App Store purchases, StoreKit, iCloud, CloudKit, and notification delivery.</li>
+        <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase privacy and security</a> and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> — authentication, database content, analytics, diagnostics, messaging, YouTube search, suggestions, media metadata, and playback requests.</li>
+        <li><a href="https://legal.applovin.com/privacy/" target="_blank" rel="noopener noreferrer">AppLovin</a> — advertising delivery, measurement, fraud prevention, and advertising choices.</li>
+        <li><a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Meta</a> — mediated advertising where available.</li>
+        <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub</a> — hosting this policy website and associated technical access logs.</li>
+    </ul>
+    <p>We may also disclose information when reasonably necessary to comply with law, legal process, enforceable government requests, protect users or the public, investigate fraud or security issues, or protect our rights. If the App or its operations are transferred, relevant information may be transferred subject to this policy and applicable law.</p>
+
+    <h2>7. Retention and Deletion</h2>
+    <ul>
+        <li><strong>Local App data:</strong> remains until you clear it using available App controls or remove the App. The App provides controls for recent searches, listening history, favorites, and playlists.</li>
+        <li><strong>iCloud data:</strong> remains in your private iCloud database until removed through Apple’s iCloud storage controls. Removing the App from one device may not remove its iCloud data. Synchronization deletion records may remain in the library snapshot for up to 90 days so deletions can propagate to other devices.</li>
+        <li><strong>Purchases:</strong> local entitlement flags remain until App data is removed. Apple separately retains App Store purchase history under its policies so eligible purchases can be restored.</li>
+        <li><strong>Provider data:</strong> Firebase, Google, AppLovin, Meta, Apple, and GitHub retain information according to their policies and legal obligations.</li>
+        <li><strong>Support messages:</strong> are kept only as long as reasonably necessary to respond, maintain support records, resolve disputes, or meet legal obligations.</li>
+    </ul>
+    <p>To ask about access, correction, deletion, or consent withdrawal, contact us using the address below. Because the App does not use a traditional account, we may be unable to identify provider-held information without an identifier or additional details, and some requests may need to be directed to the relevant provider.</p>
+
+    <h2>8. Security and International Processing</h2>
+    <p>We use platform security features and encrypted network connections where supported. CloudKit protects private data through the user’s Apple Account and Apple’s security controls. No storage or transmission system can be guaranteed completely secure.</p>
+    <p>Third-party providers may process information in countries other than the one where you live, including the United States. Their privacy policies describe their safeguards and processing locations.</p>
+
+    <h2>9. Children</h2>
+    <p>The App is intended for a general audience and is not directed to children under 13. We do not knowingly request personal information directly from children under 13. If you believe a child has provided personal information through the App or a support request, contact us so we can review and take appropriate action.</p>
+
+    <h2>10. External Links</h2>
+    <p>The App may link to YouTube, App Store pages, or other external services. We do not control those services, and their own terms and privacy policies apply when you use them.</p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>We may update this policy when the App, its providers, or applicable requirements change. The revised policy will be posted at this URL with a new effective date. Material changes may also be highlighted in the App when appropriate.</p>
+
+    <div class="contact">
+        <h2>12. Contact</h2>
+        <p><strong>Operator:</strong> Satish Maleku</p>
+        <p>For privacy questions or requests, email <a href="mailto:jukeboxmusicstreamer@gmail.com">jukeboxmusicstreamer@gmail.com</a>.</p>
+    </div>
+</main>
+</body>
+</html>
