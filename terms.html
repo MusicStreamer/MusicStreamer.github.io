@@ -1,185 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Terms of Service – Music ▸ Player</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Terms of Use for Music Player, including purchases, iCloud Sync, advertising, and third-party music services.">
+    <meta name="color-scheme" content="light dark">
+    <title>Terms of Use - Music Player</title>
     <style>
+        :root {
+            color-scheme: light dark;
+            --background: #ffffff;
+            --surface: #f5f5f7;
+            --text: #1d1d1f;
+            --secondary: #5f6368;
+            --border: #d9d9de;
+            --accent: #c91645;
+            --link: #0066cc;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #111113;
+                --surface: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #b0b0b5;
+                --border: #39393d;
+                --accent: #ff527d;
+                --link: #64a8ff;
+            }
+        }
+
+        * { box-sizing: border-box; }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
-            padding: 24px;
-            background-color: #ffffff;
-            color: #222;
+            background: var(--background);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.62;
         }
-        h1, h2 {
-            color: #111;
+
+        main {
+            width: min(100% - 32px, 860px);
+            margin: 0 auto;
+            padding: 48px 0 72px;
         }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 16px;
+
+        h1, h2 { line-height: 1.2; }
+        h1 { margin: 0 0 8px; font-size: clamp(2rem, 7vw, 3rem); }
+        h2 { margin: 42px 0 14px; font-size: 1.45rem; }
+        p, ul { margin: 0 0 16px; }
+        ul { padding-left: 24px; }
+        li + li { margin-top: 8px; }
+
+        a { color: var(--link); text-underline-offset: 2px; }
+        a:hover { text-decoration-thickness: 2px; }
+
+        .eyebrow {
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
         }
-        h2 {
-            font-size: 20px;
-            margin-top: 32px;
-            margin-bottom: 12px;
+
+        .updated { color: var(--secondary); }
+
+        .summary, .contact {
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            background: var(--surface);
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin-left: 20px;
-            margin-bottom: 12px;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-        }
-        .footer {
-            margin-top: 48px;
-            font-size: 14px;
-            color: #666;
+
+        .summary { margin: 28px 0 36px; }
+        .summary p:last-child, .contact p:last-child { margin-bottom: 0; }
+        .contact { margin-top: 42px; }
+        .contact h2 { margin-top: 0; }
+
+        @media (max-width: 560px) {
+            main { padding-top: 32px; }
+            .summary, .contact { padding: 18px; }
         }
     </style>
 </head>
 <body>
-<div class="container">
+<main>
+    <div class="eyebrow">Music Player</div>
+    <h1>Terms of Use</h1>
+    <p class="updated"><strong>Effective date:</strong> July 18, 2026</p>
 
-<h1>Terms of Service</h1>
+    <div class="summary">
+        <p>These Terms of Use (“Terms”) govern your use of Music Player (the “App”), which is operated by Satish Maleku (“we,” “us,” or “our”). By downloading or using the App, you agree to these Terms and the <a href="https://musicstreamer.github.io/privacy_policy">Privacy Policy</a>.</p>
+        <p>The App is also licensed under the <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Apple Standard End User License Agreement</a> (“Apple EULA”). These Terms supplement the Apple EULA. If they conflict, the Apple EULA and mandatory applicable law control.</p>
+    </div>
 
-<p><strong>Effective Date:</strong> September 16, 2021</p>
+    <h2>1. Eligibility and Acceptance</h2>
+    <p>The App is intended for a general audience and is not directed to children under 13. If you are not legally able to agree to these Terms, a parent or legal guardian must review and accept them for you where permitted by law.</p>
+    <p>If you do not agree to these Terms, do not use the App.</p>
 
-<p>
-Welcome to <strong>Music ▸ Player</strong> (the “App”, “Service”, “we”, “us”, or “our”).
-These Terms of Service (“Terms”) govern your access to and use of the Music ▸ Player
-mobile application and related services.
-</p>
+    <h2>2. What the App Provides</h2>
+    <p>The App provides tools to discover, search, stream, organize, and control access to music and related metadata supplied through third-party services. Features may include charts, artist and playlist discovery, favorites, custom playlists, recently played history, playlist import, background playback, backup export and import, advertising, non-consumable upgrades, and optional iCloud library synchronization.</p>
+    <p>The App does not sell music, provide ownership of music recordings, or grant rights to download, copy, redistribute, publicly perform, or commercially exploit third-party content.</p>
 
-<p>
-By downloading, accessing, or using the Service, you agree to be bound by these Terms.
-If you do not agree to these Terms, you must not use the Service.
-</p>
+    <h2>3. Third-Party Content and Services</h2>
+    <p>Search results, artwork, metadata, suggestions, playlists, and media streams may be provided by or retrieved from third parties, including Google, YouTube, Apple, Firebase, AppLovin, and Meta. Their terms and policies apply to their services.</p>
+    <p>We do not control third-party catalogs or guarantee that any track, artist, playlist, artwork, stream, advertisement, or external service will remain available, accurate, lawful in every location, or free from interruption. Content may be changed, restricted, or removed without notice.</p>
+    <p>You must use third-party content only as permitted by applicable law and the relevant provider’s terms. Music Player is not sponsored, endorsed, or operated by YouTube, Google, Apple, or any advertising provider unless expressly stated.</p>
 
-<h2>1. Acceptance of Terms</h2>
-<p>
-Your use of the Service is subject to these Terms and our
-<a href="https://musicstreamer.github.io/privacy_policy" target="_blank">Privacy Policy</a>,
-which explains how we collect, use, and protect your information.
-</p>
+    <h2>4. Acceptable Use</h2>
+    <p>You may use the App only for personal, lawful, non-commercial purposes. You must not:</p>
+    <ul>
+        <li>Use the App to infringe copyright, privacy, publicity, trademark, or other rights.</li>
+        <li>Copy, redistribute, record, sell, sublicense, publicly perform, or commercially exploit content obtained through the App without authorization.</li>
+        <li>Bypass access controls, geographic restrictions, advertising, purchase checks, security mechanisms, or technical limits.</li>
+        <li>Reverse engineer, alter, interfere with, overload, scrape, automate against, or attempt unauthorized access to the App or related services, except where applicable law expressly permits it.</li>
+        <li>Use the App to distribute malicious code, commit fraud, harass others, or violate any law or third-party terms.</li>
+    </ul>
 
-<h2>2. Use of the Service</h2>
-<p>
-The App provides tools for streaming, managing, and organizing music content.
-The Service is provided for personal, non-commercial use only.
-You agree not to misuse the Service or use it for unlawful purposes.
-</p>
+    <h2>5. Advertising</h2>
+    <p>The free version of the App may display banner, interstitial, or other advertisements provided through AppLovin MAX and mediated advertising partners such as Meta Audience Network. Ads may be personalized or non-personalized depending on your region, consent choices, and iOS tracking settings.</p>
+    <p>We are not responsible for an advertiser’s products, claims, websites, or transactions. Your dealings with advertisers are between you and the advertiser.</p>
 
-<h2>3. Content and Third-Party Services</h2>
-<p>
-The Service integrates third-party services for advertising, analytics, crash
-reporting, and content delivery. These services may collect information in accordance
-with their own privacy policies.
-</p>
+    <h2>6. In-App Purchases</h2>
+    <p>The App currently offers one-time, non-consumable purchases that can unlock Ad-Free Listening, iCloud Sync, or a bundle of those features. The App does not currently offer an automatically renewing subscription.</p>
+    <ul>
+        <li>Prices and availability are shown by the App Store in your local currency and may vary by country or region.</li>
+        <li>Apple processes payment using the Apple Account and payment method associated with the App Store.</li>
+        <li>A purchase is charged only after you confirm it through Apple’s purchase interface.</li>
+        <li>Eligible non-consumable purchases can be restored using the App’s Restore Purchases control and the Apple Account originally used to buy them.</li>
+        <li>Refunds, billing disputes, purchase eligibility, Family Sharing, and App Store account issues are handled by Apple under its policies. You can request support through <a href="https://reportaproblem.apple.com/" target="_blank" rel="noopener noreferrer">Apple’s Report a Problem service</a>.</li>
+    </ul>
+    <p>Purchasing Ad-Free disables the App’s own advertising placements. It does not remove third-party branding, links, media metadata, or promotional material that may be part of content supplied by an external provider.</p>
 
-<ul>
-    <li>Advertising services (e.g., AppLovin)</li>
-    <li>Analytics and crash reporting tools (e.g., Firebase Crashlytics)</li>
-    <li>Other service providers required to operate the App</li>
-</ul>
+    <h2>7. iCloud Sync and Backups</h2>
+    <p>iCloud Sync is an optional paid feature that stores supported favorites and playlist information in the private CloudKit database associated with your Apple Account. It requires a compatible device, an available iCloud account, sufficient iCloud storage, and network access.</p>
+    <p>Synchronization may be delayed, unavailable, or affected by account changes, connectivity, storage limits, Apple service interruptions, incompatible App versions, or conflicting edits from multiple devices. The App attempts to merge supported library changes, but we cannot guarantee that every change or deletion will synchronize without delay or data loss.</p>
+    <p>Manual backup files are created and imported at your direction. You are responsible for protecting exported files, choosing where they are stored, and confirming that a backup is appropriate before importing it. Keep an independent copy of information that is important to you.</p>
 
-<p>
-We do not control third-party services and are not responsible for their content,
-policies, or practices.
-</p>
+    <h2>8. Your Library and Preferences</h2>
+    <p>You control the names and organization of playlists you create or import. Do not use playlist names or other information in a way that violates another person’s rights or applicable law.</p>
+    <p>Removing the App generally removes its local library data from that device, but it may not remove App Store purchase history, exported backup files, or information stored in iCloud. The <a href="https://musicstreamer.github.io/privacy_policy">Privacy Policy</a> explains storage and deletion in more detail.</p>
 
-<h2>4. Advertising</h2>
-<p>
-The Service is supported by advertising. Ads may be personalized or non-personalized
-depending on your device settings, region, and consent choices.
-By using the Service, you acknowledge and accept that advertisements may be displayed.
-</p>
+    <h2>9. App Ownership and License</h2>
+    <p>The App, its original interface, code, design, and related materials are licensed—not sold—to you for personal use under these Terms and the Apple EULA. We and our licensors retain all rights not expressly granted.</p>
+    <p>Third-party music, artwork, names, logos, metadata, software, and services remain the property of their respective owners and are subject to their own licenses and terms.</p>
 
-<h2>5. Log Data and Automated Collection</h2>
-<p>
-When you use the Service, certain information may be automatically collected,
-including device identifiers, IP address, operating system version, usage data,
-and crash logs. This information is used to improve performance and reliability.
-</p>
+    <h2>10. Updates, Availability, and Changes</h2>
+    <p>We may update, modify, suspend, or discontinue features to improve the App, address technical or legal requirements, respond to third-party service changes, or protect users and the service. Some updates may be required for continued operation, purchase restoration, security, or compatibility.</p>
+    <p>We do not guarantee that the App or any feature will be available at all times, in every location, on every device, or with every third-party service.</p>
 
-<h2>6. Links to External Services</h2>
-<p>
-The Service may contain links to third-party websites or services.
-We are not responsible for the content or privacy practices of those services.
-Your interaction with external services is at your own risk.
-</p>
+    <h2>11. Suspension and Termination</h2>
+    <p>You may stop using the App at any time. We may restrict or terminate access to the App or particular functions if reasonably necessary to address unlawful use, abuse, security risks, violations of these Terms, or third-party service requirements.</p>
+    <p>Termination does not automatically create a right to a refund. Refund eligibility is determined by Apple and applicable law.</p>
 
-<h2>7. Children’s Privacy</h2>
-<p>
-The Service is not intended for children under the age of 13.
-We do not knowingly collect personal information from children under 13.
-If you believe a child has provided personal data, please contact us so we can
-take appropriate action.
-</p>
+    <h2>12. Disclaimer of Warranties</h2>
+    <p>To the maximum extent permitted by applicable law, the App and related services are provided “as is” and “as available,” without warranties of merchantability, fitness for a particular purpose, non-infringement, accuracy, availability, uninterrupted operation, or freedom from errors. Nothing in these Terms excludes warranties or consumer rights that cannot legally be excluded.</p>
 
-<h2>8. Changes to These Terms</h2>
-<p>
-We may update these Terms from time to time.
-Any changes will be posted within the App or on this page.
-Continued use of the Service after changes are posted constitutes acceptance of
-the updated Terms.
-</p>
+    <h2>13. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, we will not be liable for indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, content, profits, goodwill, or access arising from use of or inability to use the App or a third-party service.</p>
+    <p>These limitations do not apply where prohibited by law, including liability that cannot be excluded or limited under applicable consumer-protection law.</p>
 
-<h2>9. Termination</h2>
-<p>
-We reserve the right to suspend or terminate access to the Service at any time,
-with or without notice, for conduct that violates these Terms or is harmful
-to the Service or other users.
-</p>
+    <h2>14. Privacy</h2>
+    <p>Our <a href="https://musicstreamer.github.io/privacy_policy">Privacy Policy</a> explains how the App and its providers handle information, including advertising identifiers, purchases, diagnostics, search requests, local library information, and optional iCloud Sync.</p>
 
-<h2>10. Disclaimer of Warranties</h2>
-<p>
-The Service is provided on an “as is” and “as available” basis.
-We make no warranties regarding availability, reliability, or accuracy.
-Use of the Service is at your own risk.
-</p>
+    <h2>15. Changes to These Terms</h2>
+    <p>We may update these Terms when the App, its business model, third-party services, or applicable requirements change. The revised Terms will be posted at this URL with a new effective date. Material changes may also be highlighted in the App when appropriate.</p>
 
-<h2>11. Limitation of Liability</h2>
-<p>
-To the fullest extent permitted by law, we shall not be liable for any indirect,
-incidental, consequential, or punitive damages arising from your use of the Service.
-</p>
+    <h2>16. Governing Terms</h2>
+    <p>These Terms are governed by applicable law, without depriving you of mandatory consumer protections in the country or region where you live. The Apple EULA includes additional provisions concerning governing law, third-party beneficiaries, maintenance, support, and Apple’s responsibilities.</p>
 
-<h2>12. Governing Law</h2>
-<p>
-These Terms shall be governed by and construed in accordance with applicable laws,
-without regard to conflict of law principles.
-</p>
-
-<h2>13. Contact Information</h2>
-<p>
-If you have any questions about these Terms, please contact us:
-</p>
-
-<p>
-<strong>Email:</strong>
-<a href="mailto:jukeboxmusicstreamer@gmail.com">jukeboxmusicstreamer@gmail.com</a>
-</p>
-
-<div class="footer">
-<p>
-By using the Service, you acknowledge that you have read, understood,
-and agree to these Terms of Service.
-</p>
-</div>
-
-</div>
+    <div class="contact">
+        <h2>17. Contact</h2>
+        <p><strong>Operator:</strong> Satish Maleku</p>
+        <p>For questions about these Terms, email <a href="mailto:jukeboxmusicstreamer@gmail.com">jukeboxmusicstreamer@gmail.com</a>.</p>
+    </div>
+</main>
 </body>
 </html>
