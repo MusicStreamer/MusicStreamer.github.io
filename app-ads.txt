@@ -1,6 +1,4 @@
 #Updated 3rd November 2023
-appodeal.com, 212407, DIRECT
-bidmachine.io, 212407, DIRECT
 facebook.com, 1186942028595166, RESELLER, c3e20eee3f780d68
 applovin.com, 7085b5d0612ab0f3c7510c1922881f1e, DIRECT
 vungle.com, 6a6ecfb03c7069885f29c67b, DIRECT, c107d686becd2d77
