@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Music Player ▸ — Music, without the friction</title>
-<meta name="description" content="Browse, search and stream music with Music Player ▸. Build playlists, discover new favorites, and keep your library with you.">
+<title>Jukebox — Music, without the friction</title>
+<meta name="description" content="Browse, search and stream music with Jukebox. Build playlists, discover new favorites, and keep your library with you.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -64,8 +64,6 @@ button,a{ -webkit-tap-highlight-color:transparent }
   box-shadow:0 10px 35px rgba(255,86,120,.22);
 }
 .brand-mark svg{width:18px;height:18px}
- .app-brand-mark{padding:0;overflow:hidden;background:#fff;box-shadow:0 10px 30px rgba(30,170,220,.22)}
-.app-brand-mark img{width:100%;height:100%;object-fit:cover}
 .nav-links{display:flex;align-items:center;gap:30px;color:#c8c4ce;font-size:14px}
 .nav-links a{transition:color .2s ease}
 .nav-links a:hover{color:#fff}
@@ -156,15 +154,8 @@ button,a{ -webkit-tap-highlight-color:transparent }
 .wave{height:38px;display:flex;align-items:center;gap:4px;margin-top:11px}
 .wave i{display:block;width:3px;border-radius:5px;background:linear-gradient(var(--cyan),var(--violet));height:var(--h)}
 .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:11px}
-.stat-row div{padding:10px 8px;border-radius:12px;background:rgba(255,255,255,.045);
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-}
-.stat-row strong{display:block;font-size:15px}
-.stat-row span{display:block;color:#86828d;font-size:9px;margin-top:6px}
+.stat-row div{padding:10px 8px;border-radius:12px;background:rgba(255,255,255,.045)}
+.stat-row strong{display:block;font-size:15px}.stat-row span{display:block;color:#86828d;font-size:9px;margin-top:2px}
 
 /* Trust strip */
 .trust{padding:0 0 28px}
@@ -190,23 +181,15 @@ button,a{ -webkit-tap-highlight-color:transparent }
 .feature-card p{margin-top:11px;color:var(--muted);max-width:460px;font-size:14px;line-height:1.7}
 .feature-icon{width:45px;height:45px;border-radius:14px;display:grid;place-items:center;border:1px solid var(--line);background:rgba(255,255,255,.04)}
 .feature-icon svg{width:20px;height:20px}
-.library-showcase{position:absolute;left:32px;right:32px;bottom:28px;height:300px;border-radius:25px;overflow:hidden;border:1px solid rgba(255,255,255,.09);background:radial-gradient(circle at 18[...]}
-.library-showcase:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transpa[...]
-.library-app{position:absolute;left:28px;top:28px;display:flex;align-items:center;gap:14px;z-index:2}
-.library-app-icon{width:66px;height:66px;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 14px 38px rgba(0,176,218,.25);border:1px solid rgba(255,255,255,.22)}
-.library-app-icon img{width:100%;height:100%;object-fit:cover}
-.library-app-copy b{display:block;font-size:17px;letter-spacing:-.02em}.library-app-copy span{display:block;font-size:11px;color:#8e98a4;margin-top:4px}
-.library-now{position:absolute;right:24px;top:28px;z-index:2;padding:8px 11px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);font-size:10px;color:#a9b2bb;text-t[...]
-.library-cards{position:absolute;left:28px;right:28px;bottom:-46px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;z-index:2}
-.library-cover{aspect-ratio:1/.96;border-radius:20px;padding:15px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid rgba(255,255,255,.1);box-shadow:0 24px 45px rgba(0,0[...]
-.library-cover:nth-child(1){background:linear-gradient(145deg,#fb496d,#642338);transform:rotate(-3deg)}
-.library-cover:nth-child(2){background:linear-gradient(145deg,#8979ff,#27204c);transform:translateY(12px)}
-.library-cover:nth-child(3){background:linear-gradient(145deg,#66ddd0,#163f3c);transform:rotate(3deg)}
-.library-cover b{font-size:12px}.library-cover span{font-size:9px;color:rgba(255,255,255,.72);margin-top:3px}
+.visual-library{position:absolute;left:32px;right:32px;bottom:30px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;transform:perspective(900px) rotateX(8deg)}
+.cover{aspect-ratio:1;border-radius:16px;background:linear-gradient(145deg,var(--pink),#33131e);border:1px solid rgba(255,255,255,.08);padding:14px;display:flex;flex-direction:column;justify-content:f[...]
+.cover:nth-child(2){background:linear-gradient(145deg,var(--violet),#1d1837);transform:translateY(18px)}
+.cover:nth-child(3){background:linear-gradient(145deg,var(--cyan),#0b2d29)}
+.cover b{font-size:12px}.cover span{font-size:9px;color:rgba(255,255,255,.7);margin-top:3px}
 .stack{display:grid;grid-template-rows:1fr 1fr;gap:18px}
 .search-pill{margin-top:26px;height:52px;border:1px solid var(--line);border-radius:16px;padding:0 16px;display:flex;align-items:center;gap:10px;background:#0d0d10;color:#98949e;font-size:13px}
 .search-pill svg{width:17px;height:17px}
-.playlist-lines{margin-top:22px;display:grid;gap:10px}.playlist-line{height:9px;border-radius:999px;background:rgba(255,255,255,.075)}.playlist-line:nth-child(2){width:84%}.playlist-line:nth-chil[...]
+.playlist-lines{margin-top:22px;display:grid;gap:10px}.playlist-line{height:9px;border-radius:999px;background:rgba(255,255,255,.075)}.playlist-line:nth-child(2){width:84%}.playlist-line:nth-child(3){[...] 
 
 /* Closing CTA */
 .final-cta{padding:40px 0 110px}
@@ -218,7 +201,7 @@ button,a{ -webkit-tap-highlight-color:transparent }
     var(--surface);
   padding:70px 36px;text-align:center;
 }
-.cta-panel:after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px[...]
+.cta-panel:after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);bac[...]
 .cta-panel>*{position:relative;z-index:2}.cta-panel h2{margin-inline:auto;max-width:700px}.cta-panel p{max-width:530px;margin:18px auto 30px;color:var(--muted);line-height:1.7}
 
 footer{padding:0 0 44px;color:#85818d;font-size:13px}
@@ -226,18 +209,20 @@ footer{padding:0 0 44px;color:#85818d;font-size:13px}
 .footer-links{display:flex;gap:22px}.footer-links a:hover{color:#fff}
 
 @media (max-width:980px){
-  .nav-links{display:none}.hero{padding-top:56px}.hero-grid{grid-template-columns:1fr;gap:38px}.hero-copy{text-align:center}.hero h1,.hero-copy>p{margin-inline:auto}.hero-actions,.hero-note{justi[...]
+  .nav-links{display:none}.hero{padding-top:56px}.hero-grid{grid-template-columns:1fr;gap:38px}.hero-copy{text-align:center}.hero h1,.hero-copy>p{margin-inline:auto}.hero-actions,.hero-note{justify-co[...]
 @media (max-width:640px){
-  .shell{width:min(100% - 28px,1180px)}.nav{height:68px}.nav-actions .btn-ghost{display:none}.hero{padding:42px 0 62px}.hero h1{font-size:clamp(57px,18vw,76px)}.hero-copy>p{font-size:16px}.hero-a[...]
+  .shell{width:min(100% - 28px,1180px)}.nav{height:68px}.nav-actions .btn-ghost{display:none}.hero{padding:42px 0 62px}.hero h1{font-size:clamp(57px,18vw,76px)}.hero-copy>p{font-size:16px}.hero-action[...]
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 </style>
 </head>
 <body>
 <header class="site-header">
   <div class="shell nav">
-    <a class="brand" href="#top" aria-label="Music Player home">
-      <span class="brand-mark app-brand-mark" aria-hidden="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAK8CAYAAAANumxDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFsWlUWHRYTUw6Y29tLmFkb2[...]
-      Music Player ▸
+    <a class="brand" href="#top" aria-label="Jukebox home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx[...]
+      </span>
+      Jukebox
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
       <a href="#features">Features</a>
@@ -257,10 +242,10 @@ footer{padding:0 0 44px;color:#85818d;font-size:13px}
       <div class="hero-copy">
         <div class="kicker"><span class="kicker-dot"></span> Music for every part of your day</div>
         <h1>Press play.<br><em>Stay there.</em></h1>
-        <p>Search, discover, stream, and save the music you love in one beautifully simple place. No complicated setup — just open Music Player ▸ and listen.</p>
+        <p>Search, discover, stream, and save the music you love in one beautifully simple place. No complicated setup — just open Jukebox and listen.</p>
         <div class="hero-actions">
           <a class="btn btn-light" href="https://apps.apple.com/us/app/jukebox/id1545875297">
-            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.[...]
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79[...]
             Download on App Store
           </a>
           <a class="btn btn-ghost" href="#features">See what’s inside</a>
@@ -271,16 +256,16 @@ footer{padding:0 0 44px;color:#85818d;font-size:13px}
         </div>
       </div>
 
-      <div class="product-stage" aria-label="Music Player app preview">
+      <div class="product-stage" aria-label="Jukebox app preview">
         <div class="orbit a" aria-hidden="true"></div>
         <div class="orbit b" aria-hidden="true"></div>
         <div class="floating-card top" aria-hidden="true">
           <div class="mini-label">Now playing</div>
           <div class="track"><div class="album"></div><div><strong>Your favorite track</strong><span>Ready when you are</span></div></div>
-          <div class="wave"><i style="--h:12px"></i><i style="--h:28px"></i><i style="--h:18px"></i><i style="--h:33px"></i><i style="--h:21px"></i><i style="--h:29px"></i><i style="--h:16px"></i[...]
+          <div class="wave"><i style="--h:12px"></i><i style="--h:28px"></i><i style="--h:18px"></i><i style="--h:33px"></i><i style="--h:21px"></i><i style="--h:29px"></i><i style="--h:16px"></i><i s[...]
         </div>
         <div class="phone-card">
-          <img src="assets/img/iphone-1.png" alt="Music Player app showing artists, trending tracks, and music browsing">
+          <img src="assets/img/iphone-1.png" alt="Jukebox app showing artists, trending tracks, and music browsing">
         </div>
         <div class="floating-card bottom" aria-hidden="true">
           <div class="mini-label">Your library</div>
@@ -303,38 +288,31 @@ footer{padding:0 0 44px;color:#85818d;font-size:13px}
     <div class="shell">
       <div class="section-head">
         <div><div class="eyebrow">Made for listening</div><h2>Less managing.<br>More music.</h2></div>
-        <p>Music Player ▸ keeps the experience focused on the part that matters: finding something you want to hear and getting it playing fast.</p>
+        <p>Jukebox keeps the experience focused on the part that matters: finding something you want to hear and getting it playing fast.</p>
       </div>
 
       <div class="feature-grid" id="discover">
         <article class="feature-card large">
-          <div class="feature-icon app-brand-mark" aria-hidden="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAK8CAYAAAANumxDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFsWlUWHRYTUw6Y29tL[...]
-          <h3>Your music, shaped around you</h3>
-          <p>Save favorites, build playlists, and keep the music you return to most within easy reach — whether it’s a late-night mix or your everyday rotation.</p>
-          <div class="library-showcase" aria-hidden="true">
-            <div class="library-app">
-              <div class="library-app-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAK8CAYAAAANumxDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFsWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGF[...]
-              <div class="library-app-copy"><b>Music Player ▸</b><span>Your library, one tap away</span></div>
-            </div>
-            <div class="library-now">Your collection</div>
-            <div class="library-cards">
-              <div class="library-cover"><b>Late Night</b><span>24 tracks</span></div>
-              <div class="library-cover"><b>On Repeat</b><span>36 tracks</span></div>
-              <div class="library-cover"><b>Sunday</b><span>18 tracks</span></div>
-            </div>
+          <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18"/></svg></div>
+          <h3>A library that feels personal</h3>
+          <p>Save the songs and playlists that fit your routines — driving, studying, cooking, working out, or doing absolutely nothing.</p>
+          <div class="visual-library" aria-hidden="true">
+            <div class="cover"><b>Late Night</b><span>24 tracks</span></div>
+            <div class="cover"><b>On Repeat</b><span>36 tracks</span></div>
+            <div class="cover"><b>Sunday</b><span>18 tracks</span></div>
           </div>
         </article>
 
         <div class="stack">
           <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4"/></svg[...]
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4"/></svg></di[...]
             <h3>Find it fast</h3>
             <p>Search without digging through menus. Type a song, artist, or mood and get straight to listening.</p>
-            <div class="search-pill" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4"/></svg>[...]
+            <div class="search-pill" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4"/></svg> Sear[...]
           </article>
 
           <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circ[...]
+            <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx[...]
             <h3>Built around playback</h3>
             <p>A clean, familiar experience keeps controls close and distractions out of the way.</p>
             <div class="playlist-lines" aria-hidden="true"><div class="playlist-line"></div><div class="playlist-line"></div><div class="playlist-line"></div></div>
@@ -349,10 +327,10 @@ footer{padding:0 0 44px;color:#85818d;font-size:13px}
       <div class="cta-panel">
         <div class="eyebrow">Your next listen is waiting</div>
         <h2>Put your music back at the center.</h2>
-        <p>Download Music Player ▸ on iPhone and start building a library that moves with you.</p>
+        <p>Download Jukebox on iPhone and start building a library that moves with you.</p>
         <a class="btn btn-light" href="https://apps.apple.com/us/app/jukebox/id1545875297">
-          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79[...]
-          Get Music Player ▸
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.2[...]
+          Get Jukebox
         </a>
       </div>
     </div>
@@ -361,7 +339,7 @@ footer{padding:0 0 44px;color:#85818d;font-size:13px}
 
 <footer>
   <div class="shell footer-inner">
-    <div>© 2026 Music Player ▸. Music, without the friction.</div>
+    <div>© 2026 Jukebox. Music, without the friction.</div>
     <div class="footer-links"><a href="#features">Features</a><a href="https://apps.apple.com/us/app/jukebox/id1545875297">App Store</a></div>
   </div>
 </footer>
